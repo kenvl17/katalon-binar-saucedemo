@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>message_error_detail</name>
+   <tag></tag>
+   <elementGuidId>26e85856-ca42-461f-adae-879374bc38c3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h3[contains(text(),'${text}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h3[contains(text(),'${text}')]</value>
+      <webElementGuid>be1a3106-2626-4735-8cce-05a752670345</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
