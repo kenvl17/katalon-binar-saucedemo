@@ -17,10 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Test Cases/Template/login template/login'), [('username') : 'standard_', ('password') : 'secret_e'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-'Verify error message'
-WebUI.verifyElementVisible(findTestObject('Object Repository/Login/message_error_detail', [('text') : 'Epic sadface: Username']))
-
+CucumberKW.runWithCucumberRunner(Run.class)
 

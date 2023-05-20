@@ -39,9 +39,9 @@ def setUp() {
 /**
  * Clean test suites environment.
  */
-@TearDown(skipped = true) // Please change skipped to be false to activate this method.
+@TearDown(skipped = false) // Please change skipped to be false to activate this method.
 def tearDown() {
-	WebUI.closeBrowser()
+
 }
 
 /**
@@ -49,15 +49,15 @@ def tearDown() {
  */
 @SetupTestCase(skipped = false) // Please change skipped to be false to activate this method.
 def setupTestCase() {
-WebUI.openBrowser('www.saucedemo.com')
+
 }
 
 /**
  * Run after each test case ends.
  */
-@TearDownTestCase(skipped = false) // Please change skipped to be false to activate this method.
+@TearDownTestCase(skipped = true) // Please change skipped to be false to activate this method.
 def tearDownTestCase() {
-	// Put your code here.
+	
 }
 
 /**
